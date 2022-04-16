@@ -3,10 +3,19 @@ header {
     background-color: black;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    text-decoration: 4px gold underline;
+    text-decoration: 4px darkred underline;
     height:200px;
     border: 10px blueviolet solid;
     }
+
+nav a {
+          font-weight: normal;
+          padding: 25px 25px;
+          text-decoration:4px darkred underline;
+          color: blanchedalmond;
+          font-size: 20px;
+          align-content: center;      
+}
 
 Main {
 
@@ -32,16 +41,9 @@ Main {
     height: 100px;
 }
 
-a {
-    color: blue;
-    text-decoration:4px darkred underline;
-    font-size: 20px;
-}
-
 p {
     font-size: larger;
     font-family:cursive;
-    text-decoration: 5px blanchedalmond dotted;
 }
 
 li {

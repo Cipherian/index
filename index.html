@@ -1,41 +1,57 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <body>
-<header>
+<html lang="en">
 
-    <link rel="stylesheet" href="style.css">
+<body>
+    <header>
 
-    <title>Headphones</title>
-    <img class="yo" src="https://picsum.photos/200/300?grayscale" alt="">
-    <h1>Headphones Corpo</h1>
-    <nav>
-        <a href="google.com">Home</a>
-        <a href="google.com">About</a>
-        <a href="google.com">Resources</a>
-    </nav>
-</header>
+        <link rel="stylesheet" href="style.css">
 
-<Main>
-    <H2>These are photos of cool and unique headphones</H2>
+        <title>Headphones</title>
+        <img class="yo" src="https://picsum.photos/200/300?grayscale" alt="">
+        <h1>Headphones Corpo</h1>
+        <nav>
+            <a href="google.com">Home</a>
+            <a href="google.com">About</a>
+            <a href="google.com">Resources</a>
+        </nav>
+        <script>
+            let time = prompt("What is the time?",)
+            if (time < 18) {
+                document.write("Good day.");
+            }
+            else {
+                document.write("Good evening.")
+            }
+        </script>
+        
+    </header>
+
+    <Main>
+        <H2>These are photos of cool and unique headphones</H2>
         <img class="hey" src="https://picsum.photos/seed/picsum/200/300" alt="">
         <img class="hey" src="https://picsum.photos/seed/picsum/200/300" alt="">
         <img class="hey" src="https://picsum.photos/seed/picsum/200/300" alt="">
 
-<p>This is detailing why you need to buy these headphones in particular.And here is a list of headphone specs.</p>
-<ol>
-    <li>High fidelity</li>
-    <li>Noise canceling</li>
-    <li>Comfortable pads</li>
-    <li>High treble and bass clarity</li>
-    <li>Sleek design</li>
-</ol>
+        <p>This is detailing why you need to buy these headphones in particular.And here is a list of headphone specs.
+        </p>
+        <ol>
+            <li>High fidelity</li>
+            <li>Noise canceling</li>
+            <li>Comfortable pads</li>
+            <li>High treble and bass clarity</li>
+            <li>Sleek design</li>
+        </ol>
+        <p>Click to display the time.</p>
 
-</Main>
+        <button onclick="getElementById('demo').innerHTML=Date()">What is the time?</button>
 
-<footer>
-    <p>Call: 999-999-999<br>headphonecorpo@corpo.com</p>
-    <p>Copyright LLCCC Holdings Corpo</p>
-</footer>
+       <p id="demo"></p>
+    </Main>
+
+    <footer>
+        <p>Call: 999-999-999<br>headphonecorpo@corpo.com</p>
+        <p>Copyright LLCCC Holdings Corpo</p>
+    </footer>
 </body>
 
 </html>
