@@ -15,6 +15,6 @@ function asktime() {
         return;
     }
     else
-        prompt("That is an invalid number, please enter a number between 0 and 24");
+        alert("That is an invalid number, please enter a number between 0 and 24");
     asktime()
 }
