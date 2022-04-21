@@ -64,3 +64,8 @@ footer{
     border: 10px blueviolet solid;
     
 }
+.button{
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+}
