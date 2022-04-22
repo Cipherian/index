@@ -14,18 +14,19 @@ function asktime() {
         document.write("Good evening.");
         return;
     }
-    else
+    else {
         alert("That is an invalid number, please enter a number between 0 and 24");
-    asktime();
+        asktime();
+    }
 }
 
 function stars() {
-    let star = prompt("Rate this page out of 5 stars");
-
-    for (let i = 1; i <= star; i++)
-    document.write("<p>&#9734</p>");
-    if (star <=2)
-    alert('That is that is not very nice')
+    let star = prompt("Rate this page out of 10 stars");
+    for (let i = 1; i <= star; i++) {
+        document.write("&#9734");
+    }
+    if (star <= 4) 
+        alert('That is that is not very nice')
     if (star >= 5)
-    alert ('That is very nice of you')
-}
+        alert('That is very nice of you')
+    }

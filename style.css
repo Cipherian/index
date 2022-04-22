@@ -64,8 +64,8 @@ footer{
     border: 10px blueviolet solid;
     
 }
-.button{
-    width:25px;
-    height:25px;
-    border-radius: 50%;
+.sta{
+    color:gold;
+    font-size: 30px;
+    text-align: center;
 }
